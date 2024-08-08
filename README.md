@@ -1,5 +1,5 @@
 # Master Thesis Project
-Impact of seagrass morphology on microbial diversity​
+Impact of seagrass morphology and environmental factors on microbial diversity​
 
 ## Description
 
@@ -21,8 +21,4 @@ This project contains the scripts, metadata and results of my Master's thesis.
 
 ## Contributors
 
-- **Yann-Rv** - Main author
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- **Yann-Hervé Koutou** - Main author

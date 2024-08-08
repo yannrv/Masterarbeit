@@ -1,5 +1,5 @@
 #### Script run on Apphub account of uni Greifswald
-## Pre-processing of 'Seastore_Project'
+## Pre-processing of 'Germination_Experiment'
 
 # Loading necessary libraries
 library(dada2)
@@ -11,7 +11,7 @@ library(phangorn)
 set.seed(68)
 
 # Define the path to the sequence data
-path <- "/home/rstudio/Downloads/my data seq/dada2_in_18S"
+path <- "/home/rstudio/Downloads/GE/16S"
 
 # List all files in the specified path
 list.files(path)
@@ -49,13 +49,13 @@ qualscoresR + scale_x_continuous(breaks=seq(0,300,25))
 path2 <- "/home/rstudio/Downloads"
 
 # Place filtered files in filtered/ subdirectory
-filtFs <- file.path(path2, "filtrer_18S_Seastore", paste0(sample.names, "_F_filt.fastq.bz2"))
-filtRs <- file.path(path2, "filtrer_18S_Seastore", paste0(sample.names, "_R_filt.fastq.bz2"))
+filtFs <- file.path(path2, "filtrer_16S_GE", paste0(sample.names, "_F_filt.fastq.bz2"))
+filtRs <- file.path(path2, "filtrer_16S_GE", paste0(sample.names, "_R_filt.fastq.bz2"))
 names(filtFs) <- sample.names
 names(filtRs) <- sample.names
 
 # Filter and trim the sequences
-out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, minLen=175, truncLen=c(210,220),
+out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, minLen=175, truncLen=c(230,230),
                      maxN=0, maxEE=c(2,2), truncQ=2, rm.phix=TRUE,
                      compress=TRUE, multithread=FALSE) 
 head(out)
@@ -99,4 +99,4 @@ table(nchar(getSequences(seqtab)))
 output_dir <- "/home/rstudio/Documents/Seqtab"
 
 # Save the sequence table in RDS format
-saveRDS(seqtab, file = paste0(output_dir, "/Seqtab_18S_Seastore.rds"))
+saveRDS(seqtab, file = paste0(output_dir, "/Seqtab_16S_GE.rds"))

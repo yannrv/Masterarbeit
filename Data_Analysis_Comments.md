@@ -38,7 +38,6 @@
 - **Genus**: 1,863 unique genera, with a significant number of unclassified genera.
 - **Species**: 1,929 unique species, again with a high number of unclassified species.
 
-
 #### 1.3.2 Eukaryotes
 
 - **Kingdom**: The dataset contains 1 kingdom, with all sequences classified under *Eukaryota*.
@@ -112,16 +111,16 @@ Microbial diversity is highest in whole plant samples, with diversity gradually 
 The significantly low p-value (p = 2.16e-09) indicates that these differences in diversity metrics are statistically significant depending on sample type, consistent with the trends observed in the boxplots.
 
 
-![Figure 6](./Figures/16S/richness_by_season.png)
-*Figure 6: Richness by season.*
-
-...
-
-![Figure 7](./Figures/16S/Richness_julian_days.png)
-*Figure 7: Richness trends*
+![Figure 6](./Figures/16S/Richness_julian_days.png)
+*Figure 6: Richness trends*
 
 The 16S richness shows dynamic fluctuations over time, with distinct peaks and troughs rather than a smooth or linear trend, indicating variability in microbial diversity across the Julian days.
 Prominent peaks in richness occur around Julian Days 131, 142, 171, 201, 221, 235, and 271, suggesting that these periods may have conditions that support higher species diversity.
 Conversely, sharp declines in richness are observed around Julian Days 145, 161, 201, 245, and 261, potentially reflecting times when environmental conditions or ecological interactions led to reduced diversity.
 The variability in richness is highlighted by the error bars, particularly around Julian Days 141, 201, and 250, which indicate substantial spread and suggest that temporal factors strongly influence microbial diversity.
 Overall, this temporal analysis underscores that 16S richness is not constant but instead fluctuates significantly over time, likely driven by seasonal changes, environmental shifts, or other ecological dynamics. [Kim et al.] (https://doi.org/10.1007/s12237-014-9833-2).
+
+![Figure 7](./Figures/16S/richness_by_season.png)
+*Figure 7: Richness by season.*
+
+

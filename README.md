@@ -1,5 +1,5 @@
 # Master Thesis Project
-Impact of seagrass morphology and environmental factors on microbial diversity​.
+Impact of Seagrass Morphology and Environmental Factors on Microbial Diversity Associated with Seagrass Leaves.
 
 ## Description
 
@@ -16,7 +16,7 @@ This project contains the scripts, datas and Figures and comments of my Master's
   - **Pre_processing/**: Scripts used for preprocessing 16S and 18S data.
   - **Processing/**: Scripts for processing the 16S and 18S data.
 
-- **Data_Analysis_Comments.md**: Documentation and comments related to data analysis.
+
 
 
 ## Usage

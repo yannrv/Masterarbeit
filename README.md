@@ -21,7 +21,7 @@ This project contains the scripts, datas and Figures and comments of my Master's
 
 ## Usage
 
-1. Clone the repository: `git clone https://git.rz.uni-greifswald.de/s-yakout/Masterarbeit.git`
+1. Clone the repository: `git clone https://git.uni-greifswald.de/s-yakout/Masterarbeit.git`
 2. Navigate to the project folder: `cd Masterarbeit`
 3. Run the scripts as needed.
 

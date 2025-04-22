@@ -1,22 +1,21 @@
 # Master Thesis Project
-Impact of Seagrass Morphology and Environmental Factors on Microbial Diversity Associated with Seagrass Leaves.
+Influence of Morphological Traits and Environmental Factors on Microbial Diversity in the Phyllosphere of Zostera marina.
 
 ## Description
 
-This project contains the scripts, datas and Figures and comments of my Master's thesis.
+The project contains the Scripts, Datas and Figures of my Master's thesis.
 
 ## Project Structure
 
-- **Data/**: Contains the data files used in the analysis inclunding supplementary data.
+- **Data/**: Contains the data files used in the analysis.
 
 - **Figures/**: Contains figures generated from the analysis.
-  - **16S/**: Subdirectory with figures related to 16S analysis.
-
+  - **Map/**: Subdirectory with figures related to Map.
+  - **Results/**: Subdirectory with figures related to the Results section. 
+  - **Supplementary/**: Subdirectory with supplementary figures.
+  
 - **Script/**: Contains scripts used in the analysis.
   - **Pre_processing/**: Scripts used for preprocessing 16S and 18S data.
-  - **Processing/**: Scripts for processing the 16S and 18S data.
-
-
 
 
 ## Usage

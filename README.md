@@ -1,5 +1,5 @@
 # Master Thesis Project
-Influence of Morphological Traits and Environmental Factors on Microbial Diversity in the Phyllosphere of Zostera marina.
+Influence of Morphological Traits and Environmental Factors on Microbial Diversity in the Phyllosphere of *Zostera marina*.
 
 ## Description
 
